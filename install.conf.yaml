@@ -9,5 +9,7 @@
     ~/.config/i3:
         path: config/i3/
         create: true
-
+    ~/.config/qutebrowser:
+        path: config/qutebrowser
+        create: true
 
