@@ -9,7 +9,7 @@
     ~/.config/i3:
         path: config/i3/
         create: true
-    ~/.config/qutebrowser:
-        path: config/qutebrowser
+    ~/.config/qutebrowser/autoconfig.yml:
+        path: config/qutebrowser/autoconfig.yml
         create: true
 

@@ -259,6 +259,7 @@ global:
   colors.tabs.indicator.start: '#0000aa'
   colors.tabs.indicator.stop: '#00aa00'
   colors.tabs.odd.bg: '#304049'
+  colors.tabs.odd.fg: white
   colors.tabs.selected.even.bg: '#4c6674'
   colors.tabs.selected.odd.bg: '#4c6674'
   fonts.statusbar: 9pt monospace

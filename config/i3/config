@@ -1,5 +1,5 @@
 # (No) Title Bars
-#for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 2
 
 # Gaps
 gaps inner 10
@@ -7,8 +7,8 @@ gaps outer 0
 smart_gaps on
 
 # Borders
-new_window pixel 1
-new_float pixel 1
+#new_window pixel 2
+#new_float pixel 2
 
 set $black       #212121
 set $darkblack   #000000
@@ -53,7 +53,7 @@ bindsym $mod+Shift+q kill
 # class                 border  backgr. text    indicator child_border
 client.focused          #4c7899 #285577 #ffffff #2e9ef4   #ff6f27 
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
-client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.unfocused        #304049 #222222 #888888 #292d2e   #222222
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
