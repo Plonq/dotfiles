@@ -252,6 +252,10 @@ global:
       y: prompt-accept yes
     register:
       <Escape>: leave-mode
+  colors.statusbar.command.fg: white
+  colors.statusbar.normal.bg: '#304049'
+  colors.statusbar.private.bg: '#666666'
+  colors.statusbar.private.fg: white
   colors.tabs.bar.bg: '#555555'
   colors.tabs.even.bg: '#304049'
   colors.tabs.even.fg: white
