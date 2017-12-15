@@ -3,6 +3,11 @@
 
 config_version: 1
 global:
+  auto_save.session: true
+  bindings.commands:
+    normal:
+      <ctrl+j>: scroll-page 0 0.5
+      <ctrl+k>: scroll-page 0 -0.5
   bindings.default:
     caret:
       $: move-to-end-of-line
@@ -266,6 +271,12 @@ global:
   colors.tabs.odd.fg: white
   colors.tabs.selected.even.bg: '#4c6674'
   colors.tabs.selected.odd.bg: '#4c6674'
+  content.xss_auditing: false
+  downloads.location.remember: false
+  downloads.location.suggestion: path
+  downloads.open_dispatcher: null
+  downloads.position: bottom
+  downloads.remove_finished: -1
   fonts.statusbar: 9pt monospace
   fonts.tabs: 10pt monospace
   fonts.web.family.standard: null
@@ -293,5 +304,10 @@ global:
   tabs.width.bar: 20%
   tabs.width.indicator: 0
   tabs.wrap: true
+  url.searchengines:
+    DEFAULT: https://duckduckgo.com/?q={}
+    aw: https://wiki.archlinux.org/index.php?search={}
+    gg: https://www.google.com.au/search?q={}
+  url.start_pages: https://start.duckduckgo.com
   window.title_format: '{perc}{title} | {host}'
   zoom.default: 100%
