@@ -20,6 +20,10 @@ alias vi='vim'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias update='trizen -Syu'
 
 # Set vim keybindings
 set -o vi
+
+# User scripts/executables
+export PATH=~/bin:$PATH
