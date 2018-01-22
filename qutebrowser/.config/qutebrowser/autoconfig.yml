@@ -317,3 +317,4 @@ global:
   url.start_pages: https://start.duckduckgo.com
   window.title_format: '{perc}{title} | {host}'
   zoom.default: 100%
+
