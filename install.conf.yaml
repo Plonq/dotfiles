@@ -4,11 +4,6 @@
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
     ~/.vimrc: vimrc
-    ~/.Xresources: Xresources
-    ~/.xinitrc: xinitrc
-    ~/.config/i3:
-        path: config/i3/
-        create: true
     ~/.config/qutebrowser/autoconfig.yml:
         path: config/qutebrowser/autoconfig.yml
         create: true
