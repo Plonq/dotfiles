@@ -1,0 +1,11 @@
+! remove Caps Lock
+clear lock
+clear mod5
+! Caps as modifier
+add lock = Mode_switch
+keycode 66 = Mode_switch Caps_Lock NoSymbol NoSymbol
+! Configure hjkl keys to have extra function
+keycode 43 = h H Left Left
+keycode 44 = j J Down Down
+keycode 45 = k K Up Up
+keycode 46 = l L Right Right

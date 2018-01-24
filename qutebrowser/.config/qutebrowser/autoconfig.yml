@@ -8,10 +8,7 @@ global:
     w: session-save
     wq: quit --save
   auto_save.session: true
-  bindings.commands:
-    normal:
-      <ctrl+j>: scroll-page 0 0.5
-      <ctrl+k>: scroll-page 0 -0.5
+  bindings.commands: null
   bindings.default:
     caret:
       $: move-to-end-of-line
@@ -285,6 +282,7 @@ global:
   fonts.statusbar: 9pt monospace
   fonts.tabs: 10pt monospace
   fonts.web.family.standard: null
+  scrolling.smooth: true
   statusbar.padding:
     bottom: 2
     left: 1
@@ -293,6 +291,7 @@ global:
   statusbar.position: bottom
   tabs.favicons.scale: 1.2
   tabs.favicons.show: true
+  tabs.indicator.width: 0
   tabs.padding:
     bottom: 8
     left: 8
@@ -306,8 +305,7 @@ global:
   tabs.title.alignment: left
   tabs.title.format: '{index}: {title}'
   tabs.title.format_pinned: /window
-  tabs.width.bar: 20%
-  tabs.width.indicator: 0
+  tabs.width: 20%
   tabs.wrap: true
   url.searchengines:
     DEFAULT: https://duckduckgo.com/?q={}
@@ -317,4 +315,3 @@ global:
   url.start_pages: https://start.duckduckgo.com
   window.title_format: '{perc}{title} | {host}'
   zoom.default: 100%
-
