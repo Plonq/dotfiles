@@ -282,7 +282,7 @@ global:
   fonts.statusbar: 9pt monospace
   fonts.tabs: 10pt monospace
   fonts.web.family.standard: null
-  scrolling.smooth: true
+  scrolling.smooth: false
   statusbar.padding:
     bottom: 2
     left: 1

@@ -23,7 +23,7 @@ alias ....='cd ../../..'
 alias update='trizen -Syu'
 
 # Set vim keybindings
-set -o vi
+#set -o vi
 
 # User scripts/executables
 export PATH=~/bin:$PATH
