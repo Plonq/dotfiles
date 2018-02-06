@@ -1,0 +1,1 @@
+test -f $HOME/.Xkeymap && xkbcomp $HOME/.Xkeymap $DISPLAY

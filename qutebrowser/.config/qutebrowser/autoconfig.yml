@@ -272,7 +272,12 @@ global:
   colors.tabs.odd.fg: white
   colors.tabs.selected.even.bg: '#4c6674'
   colors.tabs.selected.odd.bg: '#4c6674'
+  content.cookies.store: true
+  content.default_encoding: iso-8859-1
+  content.geolocation: false
+  content.headers.accept_language: en-US,en
   content.plugins: true
+  content.windowed_fullscreen: false
   content.xss_auditing: false
   downloads.location.remember: false
   downloads.location.suggestion: path
