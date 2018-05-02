@@ -75,6 +75,7 @@ set hlsearch
 " use is very much a personal preference, but they are harmless.
  
 " Use case insensitive search, except when using capital letters
+set incsearch
 set ignorecase
 set smartcase
  

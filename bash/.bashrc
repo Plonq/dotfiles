@@ -13,6 +13,9 @@ export WORKON_HOME=$HOME/.venvs
 export PROJECT_HOME=$HOME/devel
 source /usr/bin/virtualenvwrapper.sh
 
+# Vim as editor!
+export EDITOR=vim
+
 # Aliases
 alias ls='ls --color=auto'
 alias ll='ls -al --color=auto'
